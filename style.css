@@ -1,0 +1,13 @@
+:root { --ground:#EEF0EA; --card:#FAFAF7; --ink:#2F3A3A; --soft:#4F5B5B; --straw:#E6D9AE; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--ground); color:var(--ink); font:18px/1.6 "Atkinson Hyperlegible", system-ui, -apple-system, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+header { display:flex; align-items:center; gap:16px; margin-bottom:32px; }
+header img { width:64px; height:64px; border-radius:16px; }
+h1 { font:600 40px/1.1 Fredoka, system-ui, sans-serif; margin:0; }
+h2 { font:600 24px/1.2 Fredoka, system-ui, sans-serif; margin:32px 0 8px; }
+.card { background:var(--card); border-radius:28px; padding:24px; margin:16px 0; }
+.note { background:var(--straw); }
+a { color:var(--ink); }
+nav a { margin-right:20px; }
+small, .muted { color:var(--soft); }
